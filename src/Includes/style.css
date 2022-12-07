@@ -1,0 +1,129 @@
+/* ------ GENRAL ------  */
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+p{
+    color: #6e6f70;
+   
+}
+
+.container{
+    margin: 6px 60px;
+    
+}
+
+
+/* ------ HEADER ------  */
+
+header{
+    background-color: #ffffff;
+    padding: 25px 70px;
+}
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* ------ HOME ------  */
+
+.articles-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.article{
+   
+    padding: 10px 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    flex-basis: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 10px 0px;
+    text-align: center;
+    
+
+}
+.article:hover{
+    background-color: #e0e3e6;
+    border-radius: 7px;
+}
+.article h2{
+    margin-top: 0;
+}
+.article h4{
+    margin-top: 0;
+    color: rgb(33, 112, 231);
+}
+/* ------ POST ------  */
+
+
+.post-container h2{
+    text-align: center;
+    background:#f4f4f5;
+    
+
+}
+.post-container p{
+    text-align: center;
+    
+}
+
+.comments-container h2{
+    text-align: left;
+    
+    
+}
+.comments-title{
+    margin: 50px 0 30px;
+    font-size: 18px;
+}
+.comment{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.comment h3{
+    color: #7F8D9C;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 22px;
+}
+
+.comment p{
+    font-size: 14px;
+    text-align: left;
+    margin-left: 22px;
+}
+
+
+@media only screen and (min-width:200px) and (max-width:767px){
+    .articles-container{
+        width: 100%;
+        flex-direction: column;
+        margin: 1px;
+    }
+    .article{
+        margin: 10px;
+    }
+    .post-container{
+        margin-top: 0px;
+    }
+    
+}
