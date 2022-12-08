@@ -4,7 +4,6 @@ import HomePage from './Home/HomePage'
 import PostPage from './Post/PostPage'
 import Header from './Includes/Header'
 
-
 const Routes = () => (
     <Router>
         <Header/>

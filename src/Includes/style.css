@@ -1,4 +1,4 @@
-/* ------ GENRAL ------  */
+
 
 html, body{
     margin: 0;
@@ -27,7 +27,7 @@ p{
 }
 
 
-/* ------ HEADER ------  */
+
 
 header{
     background-color: #ffffff;
@@ -39,7 +39,7 @@ header{
     text-align: center;
 }
 
-/* ------ HOME ------  */
+
 
 .articles-container{
     display: flex;
@@ -69,7 +69,7 @@ header{
     margin-top: 0;
     color: rgb(33, 112, 231);
 }
-/* ------ POST ------  */
+
 
 
 .post-container h2{
